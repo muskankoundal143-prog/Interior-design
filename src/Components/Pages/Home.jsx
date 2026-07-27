@@ -217,10 +217,9 @@ const Home = () => {
 
 </section>
 </section>
+<section className="py-6 md:py-8 px-5 md:px-10 bg-gray-50">
 
-<section className="py-20 px-5 md:px-10 bg-gray-50">
-
-  <div className="text-center mb-12">
+  <div className="text-center mb-6">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
       Our Featured Projects
     </h2>
@@ -292,9 +291,9 @@ const Home = () => {
   </div>
 
 </section>
-<section className="py-20 px-10 bg-white">
+<section className="py-10 md:py-12 px-5 md:px-10 bg-white">
 
-  <div className="text-center mb-12">
+  <div className="text-center mb-8">
     <h2 className="text-4xl font-bold text-gray-800">
       Why Choose Us
     </h2>
@@ -306,7 +305,7 @@ const Home = () => {
 
   <div className="grid md:grid-cols-4 gap-6">
 
-    <div className="p-6 text-center shadow rounded-xl">
+    <div className="p-5 text-center shadow rounded-xl">
       <h3 className="text-2xl font-bold text-[#550b14]">10+</h3>
       <p className="mt-2 text-gray-600">Years Experience</p>
     </div>
@@ -325,12 +324,10 @@ const Home = () => {
       <h3 className="text-2xl font-bold text-[#550b14]">24/7</h3>
       <p className="mt-2 text-gray-600">Support</p>
     </div>
-
-  </div>
-
+</div>
 </section>
-<section className="py-20 px-10 bg-gray-100">
 
+<section className="py-10 md:py-12 px-5 md:px-10 bg-gray-100">
 <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
   What Our Clients Say
 </h2>
