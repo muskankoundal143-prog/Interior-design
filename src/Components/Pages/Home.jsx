@@ -142,14 +142,14 @@ const Home = () => {
     </div>
 
   </div>
-<section className="py-20 px-5 md:px-10 bg-gray-100">
+<section className="py-10 md:py-10 px-5 md:px-10 bg-gray-100">
 
-  <div className="text-center mb-12">
+  <div className="text-center mb-10">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
       Our Services
     </h2>
 
-    <p className="mt-4 text-gray-600">
+    <p className="mt-2 text-gray-600">
       Complete interior solutions designed to make your space beautiful and functional.
     </p>
   </div>
