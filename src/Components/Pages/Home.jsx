@@ -4,69 +4,84 @@ const Home = () => {
   return (
     <>
 
-      <section className="min-h-screen flex items-center justify-between px-10 bg-gray-50">
-        <div className="w-1/2">
-          <h1 className="text-5xl font-bold text-gray-800 leading-tight">
-            Transform Your Space
-            <br />
-            With Elegant Interior Design
-          </h1>
+     <section className="bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-6 sm:py-10 lg:py-14 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
-          <p className="mt-5 text-gray-600 text-lg">
-            We create beautiful, functional and modern interiors
-            that reflect your lifestyle and personality.
-          </p>
+    <div>
+     <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
+        Transform Your Space
+        <br />
+        With Elegant Interior Design
+      </h1>
+<p className="mt-4 sm:mt-5 text-gray-600 text-base sm:text-lg leading-7">
+        We create beautiful, functional and modern interiors
+        that reflect your lifestyle and personality.
+      </p>
 
-          <button className="mt-8 bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition">
-            Explore Designs
-          </button>
-        </div>
-
-        <div className="w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6"
-            alt="Luxury Interior"
-            className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
-          />
-        </div>
-      </section>
+     <button className="mt-6 sm:mt-8 px-6 sm:px-8 py-3 bg-[#550b14] text-white rounded-lg">
+        Explore Designs
+      </button>
+    </div>
 
 
- 
-<section className="py-20 px-10 bg-gray-50 flex items-center gap-12">
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6"
+        alt="Luxury Interior"
+        className="rounded-2xl shadow-xl w-full h-[450px] object-cover"
+      />
+    </div>
 
-  <div className="w-1/2">
-    <img
-      src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
-      alt="Interior Studio"
-      className="rounded-2xl shadow-xl w-full h-[450px] object-cover"
-    />
   </div>
-
-  <div className="w-1/2">
-    <h2 className="text-4xl font-bold text-gray-800">
-      Who We Are
-    </h2>
-
-    <p className="mt-5 text-gray-600 text-lg">
-      We are a passionate interior design studio creating elegant,
-      functional and timeless spaces. Our team combines creativity,
-      quality materials and modern designs to transform your dream
-      space into reality.
-    </p>
-
-    <button className="mt-6 bg-orange-500 text-white px-7 py-3 rounded-lg hover:bg-orange-600">
-      Learn More
-    </button>
-  </div>
-
 </section>
 
 
+ 
+<section className="bg-gray-50 py-8 md:py-10">
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
-<section className="py-20 px-10 bg-white">
 
-  <div className="text-center mb-12">
+
+    <div className="w-full">
+      <img
+        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+        alt="Interior Studio"
+        className="w-full h-[280px] sm:h-[350px] lg:h-[450px] object-cover rounded-2xl shadow-xl"
+      />
+    </div>
+
+
+
+    <div className="w-full">
+
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
+        Who We Are
+      </h2>
+
+
+      <p className="mt-4 text-gray-600 text-base sm:text-lg leading-7">
+        We are a passionate interior design studio creating elegant,
+        functional and timeless spaces. Our team combines creativity,
+        quality materials and modern designs to transform your dream
+        space into reality.
+      </p>
+
+
+      <button 
+        className="mt-6 bg-[#550b14] text-white px-6 py-3 rounded-lg hover:bg-[#3d0810] transition"
+      >
+        Learn More
+      </button>
+
+    </div>
+
+
+  </div>
+</section>
+
+<section className="py-10 md:py-12 px-5 md:px-10 bg-white">
+
+<div className="text-center mb-8">
     <h2 className="text-4xl font-bold text-gray-800">
       Discover Your Perfect Property Match
     </h2>
@@ -292,22 +307,22 @@ const Home = () => {
   <div className="grid md:grid-cols-4 gap-6">
 
     <div className="p-6 text-center shadow rounded-xl">
-      <h3 className="text-2xl font-bold text-orange-500">10+</h3>
+      <h3 className="text-2xl font-bold text-[#550b14]">10+</h3>
       <p className="mt-2 text-gray-600">Years Experience</p>
     </div>
 
     <div className="p-6 text-center shadow rounded-xl">
-      <h3 className="text-2xl font-bold text-orange-500">500+</h3>
+      <h3 className="text-2xl font-bold text-[#550b14]">500+</h3>
       <p className="mt-2 text-gray-600">Projects Completed</p>
     </div>
 
     <div className="p-6 text-center shadow rounded-xl">
-      <h3 className="text-2xl font-bold text-orange-500">300+</h3>
+      <h3 className="text-2xl font-bold text-[#550b14]">300+</h3>
       <p className="mt-2 text-gray-600">Happy Clients</p>
     </div>
 
     <div className="p-6 text-center shadow rounded-xl">
-      <h3 className="text-2xl font-bold text-orange-500">24/7</h3>
+      <h3 className="text-2xl font-bold text-[#550b14]">24/7</h3>
       <p className="mt-2 text-gray-600">Support</p>
     </div>
 
@@ -354,68 +369,135 @@ const Home = () => {
 - Amit Verma
 </h3>
 </div>
-
 </div>
-
 </section>
-<section className="py-20 px-10 bg-orange-500 text-white text-center">
-
-<h2 className="text-4xl font-bold">
-Ready To Design Your Dream Space?
-</h2>
-
-<p className="mt-4 text-lg">
-Let's create a beautiful interior that matches your lifestyle.
-</p>
 
 
-<button className="mt-8 bg-white text-orange-500 px-8 py-3 rounded-lg font-semibold">
-Contact Us
-</button>
+<section className="bg-[#f8f8f7] py-16">
+  <div className="max-w-6xl mx-auto px-5">
 
-</section>
-<footer className="bg-gray-900 text-white py-10 px-10">
+    <div className="bg-[#550b14] rounded-3xl px-6 sm:px-10 py-12 text-center shadow-xl">
 
-<div className="grid md:grid-cols-3 gap-8">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
+        Ready To Design Your Dream Space?
+      </h2>
 
-<div>
-<h2 className="text-2xl font-bold">
-Interior Studio
-</h2>
-<p className="mt-3 text-gray-400">
-Creating elegant spaces for modern living.
-</p>
-</div>
+      <p className="mt-5 text-[#cbc0b2] text-base sm:text-lg max-w-2xl mx-auto">
+        Let's create a beautiful interior that reflects your personality and lifestyle.
+      </p>
 
 
-<div>
-<h3 className="font-bold text-xl">
-Quick Links
-</h3>
+      <button
+        className="mt-7 bg-[#f8f8f7] text-[#550b14] px-8 py-3 rounded-full font-semibold hover:bg-[#cbc0b2] transition duration-300"
+      >
+        Contact Us
+      </button>
 
-<p className="mt-3 text-gray-400">Home</p>
-<p className="text-gray-400">About</p>
-<p className="text-gray-400">Services</p>
-</div>
+    </div>
 
+  </div>
+</section><footer className="bg-[#550b14] text-white">
 
-<div>
-<h3 className="font-bold text-xl">
-Contact
-</h3>
-
-<p className="mt-3 text-gray-400">
-Email: info@studio.com
-</p>
-
-<p className="text-gray-400">
-Phone: +91 9876543210
-</p>
-
-</div>
+  <div className="max-w-7xl mx-auto px-5 sm:px-10 py-12">
 
 
-</div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+
+      <div>
+        <h2 className="text-3xl font-bold">
+          Design
+        </h2>
+
+        <p className="mt-4 text-[#cbc0b2] leading-7">
+          Creating elegant interiors where comfort meets luxury.
+        </p>
+      </div>
+
+
+
+      <div>
+        <h3 className="text-lg font-semibold">
+          Explore
+        </h3>
+
+        <ul className="mt-4 space-y-3 text-[#cbc0b2]">
+
+          <li className="hover:text-white transition">
+            Home
+          </li>
+
+          <li className="hover:text-white transition">
+            About
+          </li>
+
+          <li className="hover:text-white transition">
+            Projects
+          </li>
+
+          <li className="hover:text-white transition">
+            Services
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div>
+        <h3 className="text-lg font-semibold">
+          Services
+        </h3>
+
+        <ul className="mt-4 space-y-3 text-[#cbc0b2]">
+
+          <li>Home Interior</li>
+          <li>Modular Kitchen</li>
+          <li>Office Design</li>
+          <li>Luxury Spaces</li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div>
+        <h3 className="text-lg font-semibold">
+          Contact
+        </h3>
+
+        <div className="mt-4 space-y-3 text-[#cbc0b2]">
+
+          <p>
+            info@studio.com
+          </p>
+
+          <p>
+            +91 9876543210
+          </p>
+
+          <p>
+            Chandigarh, India
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div className="border-t border-[#cbc0b2]/30 mt-10 pt-6 text-center text-sm text-[#cbc0b2]">
+
+      © 2026 Design Interior Studio. All Rights Reserved.
+
+    </div>
+
+
+  </div>
 
 </footer>
 

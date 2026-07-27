@@ -15,7 +15,7 @@ const About = () => {
 
 
         <div className="w-full lg:w-1/2">
-<span className="text-orange-500 font-semibold uppercase tracking-wider">
+<span className="text-[#550b14]font-semibold uppercase tracking-wider">
   Premium Interior Studio
 </span>
 
@@ -35,7 +35,7 @@ const About = () => {
             timeless designs.
           </p>
 
-          <button className="mt-6 bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition">
+          <button className="mt-6 bg-[#550b14] text-white px-8 py-3 rounded-lg transition">
             Contact Us
           </button>
 
@@ -260,7 +260,7 @@ professional workspaces with attention to every detail.
 </section>
 
 
-<section className="py-16 bg-orange-500 text-white">
+<section className="py-16 bg-[#550b14] text-white">
 
 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
@@ -298,7 +298,7 @@ Our Design Process
 
 
 <div className="bg-white p-6 rounded-xl shadow text-center">
-<h3 className="text-xl font-bold text-orange-500">
+<h3 className="text-xl font-bold text-[#550b14]">
 01
 </h3>
 <h4 className="font-semibold mt-3">
@@ -311,7 +311,7 @@ Understanding your ideas and requirements.
 
 
 <div className="bg-white p-6 rounded-xl shadow text-center">
-<h3 className="text-xl font-bold text-orange-500">
+<h3 className="text-xl font-bold text-[#550b14]">
 02
 </h3>
 <h4 className="font-semibold mt-3">
@@ -324,7 +324,7 @@ Creating layouts and design concepts.
 
 
 <div className="bg-white p-6 rounded-xl shadow text-center">
-<h3 className="text-xl font-bold text-orange-500">
+<h3 className="text-xl font-bold text-[#550b14]">
 03
 </h3>
 <h4 className="font-semibold mt-3">
@@ -337,7 +337,7 @@ Building your dream space professionally.
 
 
 <div className="bg-white p-6 rounded-xl shadow text-center">
-<h3 className="text-xl font-bold text-orange-500">
+<h3 className="text-xl font-bold text-[#550b14]">
 04
 </h3>
 <h4 className="font-semibold mt-3">
@@ -406,7 +406,7 @@ Project Manager
 
 </section>
 
-<section className="py-20 bg-orange-500 text-white text-center px-5">
+<section className="py-20 bg-[#550b14] text-white text-center px-5">
 
 <h2 className="text-4xl font-bold">
 Ready To Transform Your Space?
@@ -417,7 +417,7 @@ Let's create a beautiful interior that matches your lifestyle.
 </p>
 
 
-<button className="mt-8 bg-white text-orange-500 px-8 py-3 rounded-lg font-semibold">
+<button className="mt-8 bg-white text-[#550b14] px-8 py-3 rounded-lg font-semibold">
 Start Your Project
 </button>
 
