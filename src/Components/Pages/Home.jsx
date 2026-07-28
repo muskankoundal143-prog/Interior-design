@@ -236,7 +236,7 @@ const Home = () => {
 
   <div className="text-center mb-8">
     <h2 className="text-4xl font-bold text-gray-800">
-      Why Choose Us
+      Why Choose <span className="text-[#550b14] ">Us</span>
     </h2>
     <p className="mt-4 text-gray-600">
       We deliver creative designs with quality and perfection.
@@ -269,45 +269,63 @@ const Home = () => {
 </section>
 
 <section className="py-10 md:py-12 px-5 md:px-10 bg-gray-100">
-<h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-  What Our Clients Say
-</h2>
+  <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+    What <span className="text-[#550b14]">Our Clients</span> Say
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-8">
+
+    <div className="bg-white p-6 rounded-xl shadow text-center">
+      <img
+        src="https://randomuser.me/api/portraits/men/32.jpg"
+        alt="Rahul Sharma"
+        className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
+      />
+
+      <p className="text-gray-600">
+        "Excellent design work. They transformed our home beautifully."
+      </p>
+
+      <h3 className="mt-5 font-bold text-gray-800">
+        - Rahul Sharma
+      </h3>
+    </div>
 
 
-<div className="grid md:grid-cols-3 gap-8">
+    <div className="bg-white p-6 rounded-xl shadow text-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Priya Singh"
+        className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
+      />
 
-<div className="bg-white p-6 rounded-xl shadow">
-<p className="text-gray-600">
-"Excellent design work. They transformed our home beautifully."
-</p>
+      <p className="text-gray-600">
+        "Professional team with amazing creativity."
+      </p>
 
-<h3 className="mt-5 font-bold">
-- Rahul Sharma
-</h3>
-</div>
-
-
-<div className="bg-white p-6 rounded-xl shadow">
-<p className="text-gray-600">
-"Professional team with amazing creativity."
-</p>
-
-<h3 className="mt-5 font-bold">
-- Priya Singh
-</h3>
-</div>
+      <h3 className="mt-5 font-bold text-gray-800">
+        - Priya Singh
+      </h3>
+    </div>
 
 
-<div className="bg-white p-6 rounded-xl shadow">
-<p className="text-gray-600">
-"Our office looks premium and modern now."
-</p>
+    <div className="bg-white p-6 rounded-xl shadow text-center">
+      <img
+        src="https://randomuser.me/api/portraits/men/75.jpg"
+        alt="Amit Verma"
+        className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
+      />
 
-<h3 className="mt-5 font-bold">
-- Amit Verma
-</h3>
-</div>
-</div>
+      <p className="text-gray-600">
+        "Our office looks premium and modern now."
+      </p>
+
+      <h3 className="mt-5 font-bold text-gray-800">
+        - Amit Verma
+      </h3>
+    </div>
+
+  </div>
 </section>
 
 
