@@ -6,23 +6,25 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-[#e2d6c8] shadow-md">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between">
 
 
 
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
-            Design
-          </h1>
+       <div className="flex flex-col leading-none">
+  <h1 className="text-3xl sm:text-4xl font-serif font-semibold tracking-[6px] text-gray-900">
+    DESIGN
+  </h1>
 
-          <p className="text-xs sm:text-sm text-gray-500">
-            Interior Design Studio
-          </p>
-        </div>
+  <div className="flex items-center gap-2 mt-2">
+    <span className="w-8 h-[1px] bg-[#550b14]"></span>
 
-
+    <p className="text-[10px] sm:text-xs uppercase tracking-[3px] text-[#550b14]">
+      Interior Studio
+    </p>
+  </div>
+</div>
         <div className="hidden lg:flex gap-8 text-gray-700 font-medium">
 
           <Link to="/" className="hover:text-[#550b14]">
