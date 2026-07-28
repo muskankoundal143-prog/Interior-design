@@ -3,261 +3,343 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="py-20 px-5 md:px-10 bg-gray-50 flex flex-col lg:flex-row items-center gap-10">
+      <section className="bg-white py-20">
+  <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        <div className="w-full lg:w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
-            alt="Interior Design"
-            className="rounded-2xl shadow-xl w-full h-[350px] md:h-[500px] object-cover"
-          />
-        </div>
-
-
-        <div className="w-full lg:w-1/2">
-<span className="text-[#550b14]font-semibold uppercase tracking-wider">
-  Premium Interior Studio
-</span>
-
-<h1 className="text-4xl md:text-5xl font-bold text-gray-800 mt-3">
-  About Our Interior Studio
-</h1>
-          <p className="mt-5 text-gray-600 text-lg">
-            We create inspiring interiors that combine beauty,
-            comfort and functionality. Our goal is to transform
-            ordinary spaces into elegant environments that reflect
-            your personality.
-          </p>
-
-          <p className="mt-4 text-gray-600 text-lg">
-            From modern homes to luxury offices, our experienced
-            designers focus on every detail to deliver unique and
-            timeless designs.
-          </p>
-
-          <button className="mt-6 bg-[#550b14] text-white px-8 py-3 rounded-lg transition">
-            Contact Us
-          </button>
-
-        </div>
-
-      </section>
-
-
-<section className="py-20 px-5 md:px-10 bg-white">
-
-<div className="grid md:grid-cols-2 gap-10 items-center">
-
-<div>
-<img
-src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0"
-className="rounded-2xl shadow-xl w-full h-[450px] object-cover"
-/>
-</div>
-
-
-<div>
-
-<h2 className="text-4xl font-bold text-gray-800">
-Our Story
-</h2>
-
-<p className="mt-5 text-gray-600 text-lg">
-Founded with a passion for creativity and design, our interior studio
-started with a vision to transform ordinary spaces into extraordinary
-experiences.
-</p>
-
-<p className="mt-4 text-gray-600 text-lg">
-Over the years, we have designed modern homes, luxury apartments and
-professional workspaces with attention to every detail.
-</p>
-
-</div>
-
-</div>
-
-</section>
-  <section className="py-20 px-5 md:px-10 bg-white">
-  <div className="text-center mb-12">
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-      Our Mission & Vision
-    </h2>
-
-    <p className="mt-4 text-gray-600">
-      Creating spaces that inspire, comfort and improve everyday living.
-    </p>
-  </div>
-
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-    <div className="bg-gray-50 rounded-xl shadow-md overflow-hidden">
+    
+    <div className="relative">
       <img
-        src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600"
-        alt="Creative Interior"
-        className="w-full h-56 object-cover"
+        src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1200&q=80"
+        alt="Modern Interior"
+        className="rounded-3xl shadow-2xl w-full h-[550px] object-cover"
       />
-
-      <div className="p-6 text-center">
-        <h3 className="text-2xl font-semibold text-gray-800">
-          Creative Ideas
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Unique concepts designed according to your lifestyle.
-        </p>
-      </div>
-    </div>
-
-  
-    <div className="bg-gray-50 rounded-xl shadow-md overflow-hidden">
-      <img
-        src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600"
-        alt="Quality Interior"
-        className="w-full h-56 object-cover"
-      />
-
-      <div className="p-6 text-center">
-        <h3 className="text-2xl font-semibold text-gray-800">
-          Quality Work
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Premium materials and professional execution.
-        </p>
-      </div>
-    </div>
-
-  
-    <div className="bg-gray-50 rounded-xl shadow-md overflow-hidden">
-      <img
-        src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=600"
-        alt="Customer Satisfaction"
-        className="w-full h-56 object-cover"
-      />
-
-      <div className="p-6 text-center">
-        <h3 className="text-2xl font-semibold text-gray-800">
-          Customer Satisfaction
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Designs created around your needs and expectations.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section className="py-20 px-5 md:px-10 bg-gray-50">
-
-  <div className="text-center mb-12">
-    <h2 className="text-4xl font-bold text-gray-800">
-      Our Expertise
-    </h2>
-
-    <p className="mt-4 text-gray-600">
-      We create beautiful and functional spaces designed around your lifestyle.
-    </p>
-  </div>
-
-
-  <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-
 
    
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-
-      <img
-        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600"
-        alt="Residential Interior"
-        className="w-full h-52 object-cover"
-      />
-
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-800">
-          Residential Design
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Modern homes designed with comfort and elegance.
+      <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl px-8 py-6">
+        <h3 className="text-4xl font-bold text-[#550b14]">10+</h3>
+        <p className="text-gray-600 mt-1">
+          Years of <br /> Experience
         </p>
       </div>
-
     </div>
 
 
+    <div>
+      <span className="inline-block bg-[#550b14]/10 text-[#550b14] font-semibold px-4 py-2 rounded-full text-sm uppercase tracking-wider">
+        About Our Studio
+      </span>
+
+      <h2 className="mt-5 text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+        Crafting Beautiful
+        <br />
+        Interiors That Feel
+        <span className="text-[#550b14]"> Like Home.</span>
+      </h2>
+
+      <p className="mt-6 text-lg text-gray-600 leading-8">
+        We believe every space should reflect your personality and
+        lifestyle. Our experienced designers create elegant,
+        functional, and timeless interiors by blending creativity,
+        premium materials, and attention to every detail.
+      </p>
 
 
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+      <div className="grid grid-cols-2 gap-6 mt-10">
+        <div className="flex items-start gap-3">
+          <div className="w-12 h-12 rounded-full bg-[#550b14]/10 flex items-center justify-center text-[#550b14] text-xl">
+            ✓
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900">
+              Modern Design
+            </h4>
+            <p className="text-sm text-gray-500">
+              Stylish & functional spaces.
+            </p>
+          </div>
+        </div>
 
-      <img
-        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600"
-        alt="Luxury Villa Interior"
-        className="w-full h-52 object-cover"
-      />
+        <div className="flex items-start gap-3">
+          <div className="w-12 h-12 rounded-full bg-[#550b14]/10 flex items-center justify-center text-[#550b14] text-xl">
+            ✓
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900">
+              Premium Quality
+            </h4>
+            <p className="text-sm text-gray-500">
+              Finest materials & finishes.
+            </p>
+          </div>
+        </div>
 
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-800">
-          Luxury Villas
-        </h3>
+        <div className="flex items-start gap-3">
+          <div className="w-12 h-12 rounded-full bg-[#550b14]/10 flex items-center justify-center text-[#550b14] text-xl">
+            ✓
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900">
+              Personalized Style
+            </h4>
+            <p className="text-sm text-gray-500">
+              Tailored to your vision.
+            </p>
+          </div>
+        </div>
 
-        <p className="mt-3 text-gray-600">
-          Premium villa interiors with luxury finishes.
-        </p>
+        <div className="flex items-start gap-3">
+          <div className="w-12 h-12 rounded-full bg-[#550b14]/10 flex items-center justify-center text-[#550b14] text-xl">
+            ✓
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900">
+              On-Time Delivery
+            </h4>
+            <p className="text-sm text-gray-500">
+              Reliable project completion.
+            </p>
+          </div>
+        </div>
       </div>
 
+      <button className="mt-10 bg-[#550b14] hover:bg-[#6a0d19] transition text-white px-8 py-4 rounded-xl font-medium shadow-lg">
+        Discover More
+      </button>
     </div>
-
-
-
-
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-
-      <img
-        src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=600"
-        alt="Modern Kitchen"
-        className="w-full h-52 object-cover"
-      />
-
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-800">
-          Modular Kitchen
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Smart kitchens with modern storage solutions.
-        </p>
-      </div>
-
-    </div>
-
-
-
- 
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-
-      <img
-        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600"
-        alt="Office Interior"
-        className="w-full h-52 object-cover"
-      />
-
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-800">
-          Office Interiors
-        </h3>
-
-        <p className="mt-3 text-gray-600">
-          Creative workspaces that improve productivity.
-        </p>
-      </div>
-
-    </div>
-
 
   </div>
-
 </section>
+<section className="bg-white py-20">
+  <div className="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div className="text-center mb-16">
+      <span className="text-[#550b14] uppercase tracking-[3px] font-semibold">
+        How It Works
+      </span>
+
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-3">
+        Interior Design Services
+        <span className="text-[#550b14]"> For Every Space</span>
+      </h2>
+
+      <p className="mt-5 text-gray-600 max-w-3xl mx-auto">
+        Our simple five-step process makes designing your dream home
+        easy, collaborative, and enjoyable from start to finish.
+      </p>
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+      <img
+        src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1000&q=80"
+        alt="Tell us your needs"
+        className="rounded-3xl shadow-xl h-[420px] w-full object-cover"
+      />
+
+      <div>
+        <span className="text-[#550b14] text-5xl font-bold">01</span>
+
+        <h3 className="text-3xl font-bold mt-4">
+          Tell Us Your Vision
+        </h3>
+
+        <p className="mt-5 text-gray-600 leading-8">
+          Share your ideas, preferred style, room photos, and
+          inspiration. We'll understand your goals and create a
+          personalized design plan tailored to your space.
+        </p>
+      </div>
+    </div>
+
+
+    <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+      <div className="order-2 lg:order-1">
+        <span className="text-[#550b14] text-5xl font-bold">02</span>
+
+        <h3 className="text-3xl font-bold mt-4">
+          Receive Custom Design Concepts
+        </h3>
+
+        <p className="mt-5 text-gray-600 leading-8">
+          Our designers prepare creative layouts, mood boards,
+          furniture suggestions, and color palettes based on your
+          preferences.
+        </p>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80"
+        alt="Design Concepts"
+        className="rounded-3xl shadow-xl h-[420px] w-full object-cover order-1 lg:order-2"
+      />
+    </div>
+
+
+    <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+      <img
+        src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1000&q=80"
+        alt="3D Design"
+        className="rounded-3xl shadow-xl h-[420px] w-full object-cover"
+      />
+
+      <div>
+        <span className="text-[#550b14] text-5xl font-bold">03</span>
+
+        <h3 className="text-3xl font-bold mt-4">
+          Collaborate With Your Designer
+        </h3>
+
+        <p className="mt-5 text-gray-600 leading-8">
+          Review realistic 3D renders, floor plans, color palettes,
+          and furniture selections. We'll refine every detail until
+          your dream design is perfect.
+        </p>
+
+        <div className="grid grid-cols-2 gap-4 mt-8">
+
+          <div className="bg-gray-50 p-4 rounded-xl">
+               ✓ 3D Visualizations
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-xl">
+             ✓ Floor Plans
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-xl">
+                ✓ Color Palette
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-xl">
+               ✓ Shopping List
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+      <div className="order-2 lg:order-1">
+        <span className="text-[#550b14] text-5xl font-bold">04</span>
+
+        <h3 className="text-3xl font-bold mt-4">
+          Order With Confidence
+        </h3>
+
+        <p className="mt-5 text-gray-600 leading-8">
+          Receive a curated shopping list with recommended furniture,
+          décor, and finishes. Purchase at your own pace with complete
+          flexibility.
+        </p>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80"
+        alt="Shopping"
+        className="rounded-3xl shadow-xl h-[420px] w-full object-cover order-1 lg:order-2"
+      />
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <img
+        src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80"
+        alt="Dream Home"
+        className="rounded-3xl shadow-xl h-[420px] w-full object-cover"
+      />
+
+      <div>
+        <span className="text-[#550b14] text-5xl font-bold">05</span>
+
+        <h3 className="text-3xl font-bold mt-4">
+          Enjoy Your Dream Space
+        </h3>
+
+        <p className="mt-5 text-gray-600 leading-8">
+          Sit back and enjoy a beautifully designed interior created
+          just for you. Every detail is carefully planned to match
+          your lifestyle and personality.
+        </p>
+
+        <button className="mt-8 bg-[#550b14] text-white px-8 py-4 rounded-xl hover:bg-[#3d0810] transition">
+          Start Your Project
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section className="bg-[#faf8f6] py-20">
+  <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
+
+    <div className="relative">
+      <img
+        src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1200&q=80"
+        alt="Interior Design"
+        className="rounded-3xl w-full h-[600px] object-cover shadow-2xl"
+      />
+
+
+      <div className="absolute bottom-8 left-8 bg-white rounded-2xl shadow-xl px-8 py-6">
+        <h3 className="text-4xl font-bold text-[#550b14]">12+</h3>
+        <p className="text-gray-600 mt-1">
+          Years of Design <br /> Excellence
+        </p>
+      </div>
+    </div>
+
+
+    <div>
+
+      <span className="uppercase tracking-[4px] text-[#550b14] font-semibold">
+        Our Story
+      </span>
+
+      <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+        Creating Spaces That
+        <span className="text-[#550b14]"> Feel Like Home.</span>
+      </h2>
+
+      <p className="mt-6 text-lg text-gray-600 leading-8">
+        Every beautiful space begins with a vision. We combine
+        creativity, functionality, and timeless design to craft
+        interiors that perfectly reflect your personality and lifestyle.
+      </p>
+
+      <p className="mt-5 text-lg text-gray-600 leading-8">
+        From luxurious residences to modern commercial environments,
+        every project is carefully planned and thoughtfully executed,
+        ensuring every detail contributes to an exceptional experience.
+      </p>
+
+
+      <div className="grid grid-cols-3 gap-6 mt-10 border-t pt-8">
+
+        <div>
+          <h3 className="text-3xl font-bold text-[#550b14]">250+</h3>
+          <p className="text-gray-600 mt-1">Projects</p>
+        </div>
+
+        <div>
+          <h3 className="text-3xl font-bold text-[#550b14]">98%</h3>
+          <p className="text-gray-600 mt-1">Happy Clients</p>
+        </div>
+
+        <div>
+          <h3 className="text-3xl font-bold text-[#550b14]">15+</h3>
+          <p className="text-gray-600 mt-1">Design Awards</p>
+        </div>
+
+      </div>
+
+      <button className="mt-10 bg-[#550b14] hover:bg-[#3d0810] text-white px-8 py-4 rounded-xl transition">
+        Discover More
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
 
 
 <section className="py-16 bg-[#550b14] text-white">
@@ -420,6 +502,7 @@ Let's create a beautiful interior that matches your lifestyle.
 <button className="mt-8 bg-white text-[#550b14] px-8 py-3 rounded-lg font-semibold">
 Start Your Project
 </button>
+
 
 
 </section>

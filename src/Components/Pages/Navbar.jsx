@@ -49,12 +49,8 @@ export const Navbar = () => {
 
 
       
-        <Link
-          to="/contact"
-          className="hidden sm:block bg-[#550b14] text-white px-5 py-2 rounded-lg"
-        >
-          Contact Us
-        </Link>
+   <Link to="/contact" className="hidden sm:block bg-[#550b14] text-white px-5 py-2 rounded-lg"
+        > Contact Us</Link>
 
 
   

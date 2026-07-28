@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
 
-{/* Hero */}
+
 
 <section className="bg-[#f8f8f7] py-16 md:py-20">
   <div className="max-w-7xl mx-auto px-5 md:px-10 grid md:grid-cols-2 gap-10 items-center">
@@ -49,7 +49,7 @@ const Contact = () => {
 
 
 
-{/* Contact Cards */}
+
 
 <section className="py-12 bg-white">
 
@@ -270,8 +270,6 @@ From planning to final execution.
 </section>
 
 
-
-{/* CTA */}
 
 
 <section className="bg-[#550b14] py-16 text-center text-white">

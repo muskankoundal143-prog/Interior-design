@@ -46,7 +46,7 @@ return(
 <>
 
 
-{/* Hero */}
+
 
 <section className="bg-[#f8f8f7] py-16 md:py-20">
 
@@ -99,7 +99,7 @@ className="rounded-3xl shadow-xl w-full h-[450px] object-cover"
 
 
 
-{/* Services Cards */}
+
 
 
 <section className="py-12 md:py-16 bg-white">
@@ -179,7 +179,7 @@ View Details →
 
 
 
-{/* Process */}
+
 
 
 <section className="bg-gray-50 py-16">
@@ -280,7 +280,7 @@ Deliver your dream space.
 
 
 
-{/* CTA */}
+
 
 
 <section className="py-16 bg-[#550b14] text-center text-white">
