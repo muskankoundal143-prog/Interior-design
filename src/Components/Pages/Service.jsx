@@ -48,52 +48,45 @@ return(
 
 
 
-<section className="bg-[#f8f8f7] py-16 md:py-20">
+<section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
 
-<div className="max-w-7xl mx-auto px-5 md:px-10 grid md:grid-cols-2 gap-10 items-center">
+    <div className="relative">
 
+      {/* Image */}
+      <img
+        src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600"
+        alt="Interior Design"
+        className="w-full h-[600px] object-cover rounded-3xl"
+      />
 
-<div>
+      {/* Content Card */}
+      <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 max-w-xl md:absolute md:right-10 md:bottom-10 mt-6 md:mt-0">
 
-<p className="text-[#550b14] font-semibold">
-OUR SERVICES
-</p>
+        <span className="uppercase tracking-[4px] text-[#550b14] font-semibold">
+          Our Services
+        </span>
 
+        <h2 className="text-4xl md:text-5xl font-serif text-gray-800 mt-4 leading-tight">
+          Designing Spaces
+          <br />
+          That Inspire
+        </h2>
 
-<h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
-Designing Spaces
-<br/>
-That Inspire Living
-</h1>
+        <p className="mt-6 text-gray-600 leading-8">
+          From luxury homes to commercial interiors, we create elegant,
+          functional spaces tailored to your lifestyle and vision.
+        </p>
 
+        <button className="mt-8 px-8 py-3 rounded-full bg-[#550b14] text-white hover:bg-[#6b101b] transition">
+          Explore Services
+        </button>
 
-<p className="mt-5 text-gray-600 text-lg leading-8">
-From home interiors to commercial spaces, we create beautiful,
-functional and timeless designs that match your vision.
-</p>
+      </div>
 
+    </div>
 
-<button className="mt-8 bg-[#550b14] text-white px-8 py-3 rounded-full">
-Explore Services
-</button>
-
-
-</div>
-
-
-
-<div>
-
-<img
-src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6"
-className="rounded-3xl shadow-xl w-full h-[450px] object-cover"
-/>
-
-</div>
-
-
-</div>
-
+  </div>
 </section>
 
 

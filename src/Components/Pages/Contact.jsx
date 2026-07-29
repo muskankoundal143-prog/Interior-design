@@ -6,211 +6,154 @@ const Contact = () => {
 
 
 
-<section className="bg-[#f8f8f7] py-16 md:py-20">
-  <div className="max-w-7xl mx-auto px-5 md:px-10 grid md:grid-cols-2 gap-10 items-center">
 
-    <div>
+<section className="relative">
+  <img
+    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600"
+    alt="Interior"
+    className="w-full h-[500px] object-cover"
+  />
 
-      <p className="text-[#550b14] font-semibold">
-        START YOUR DESIGN JOURNEY
+  <div className="absolute inset-0 bg-black/50"></div>
+
+  <div className="absolute inset-0 flex items-center justify-center px-6">
+    <div className="text-center text-white max-w-3xl">
+      <p className="uppercase tracking-[5px] text-[#dbd7ab]">
+        Start Your Design Journey
       </p>
 
-      <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
-        Let's Create A Space
-        <br/>
-        Worth Remembering
-      </h1>
+      <h2 className="text-5xl md:text-6xl font-serif mt-5">
+        Let's Build Your
+        <br />
+        Dream Interior
+      </h2>
 
-
-      <p className="mt-5 text-gray-600 text-lg leading-8">
-        Tell us about your dream space, your style and your requirements.
-        Our interior experts will help create a beautiful home or office
-        designed around your lifestyle.
+      <p className="mt-6 text-lg text-gray-200">
+        Elegant, functional, and timeless interiors designed around
+        your lifestyle.
       </p>
 
-
-      <button className="mt-8 bg-[#550b14] text-white px-8 py-3 rounded-full">
-        Plan Your Design
+      <button className="mt-8 px-8 py-3 rounded-full bg-[#550b14] hover:bg-[#6b101b] transition">
+        Book Free Consultation
       </button>
-
     </div>
-
-
-    <div>
-      <img
-      src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
-      className="rounded-3xl shadow-xl w-full h-[450px] object-cover"
-      />
-    </div>
-
-
   </div>
 </section>
 
 
+<section className="-mt-16 relative z-20">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="grid md:grid-cols-3 gap-6">
 
+      <div className="bg-white rounded-3xl p-8 shadow-xl text-center">
+   
 
+        <h3 className="mt-5 text-xl font-semibold">
+          Call Us
+        </h3>
 
-<section className="py-12 bg-white">
+        <p className="mt-3 text-gray-500">
+          Speak with our experts.
+        </p>
 
-<div className="max-w-6xl mx-auto px-5 grid md:grid-cols-3 gap-6">
+        <p className="mt-4 font-semibold text-[#550b14]">
+          +91 98765 13350
+        </p>
+      </div>
 
+      <div className="bg-white rounded-3xl p-8 shadow-xl text-center">
+     
 
-<div className="p-6 rounded-2xl shadow bg-[#f8f8f7]">
+        <h3 className="mt-5 text-xl font-semibold">
+          Email
+        </h3>
 
-<h3 className="text-xl font-bold text-[#550b14]">
-Call Us
-</h3>
+        <p className="mt-3 text-gray-500">
+          Send your project details.
+        </p>
 
-<p className="mt-3 text-gray-600">
-Speak directly with our design experts.
-</p>
+        <p className="mt-4 font-semibold text-[#550b14]">
+          info@designstudio.com
+        </p>
+      </div>
 
-<p className="mt-3 font-semibold">
-+91 9876513350
-</p>
+      <div className="bg-white rounded-3xl p-8 shadow-xl text-center">
+      
 
-</div>
+        <h3 className="mt-5 text-xl font-semibold">
+          Visit Studio
+        </h3>
 
+        <p className="mt-3 text-gray-500">
+          Chandigarh, India
+        </p>
 
+        <p className="mt-4 font-semibold text-[#550b14]">
+          Mon – Sat
+        </p>
+      </div>
 
-<div className="p-6 rounded-2xl shadow bg-[#f8f8f7]">
-
-<h3 className="text-xl font-bold text-[#550b14]">
-Email Us
-</h3>
-
-<p className="mt-3 text-gray-600">
-Send your design requirements.
-</p>
-
-<p className="mt-3 font-semibold">
-info@designstudio.com
-</p>
-
-</div>
-
-
-
-<div className="p-6 rounded-2xl shadow bg-[#f8f8f7]">
-
-<h3 className="text-xl font-bold text-[#550b14]">
-Visit Studio
-</h3>
-
-<p className="mt-3 text-gray-600">
-Meet our interior designers.
-</p>
-
-<p className="mt-3 font-semibold">
-Chandigarh, India
-</p>
-
-</div>
-
-
-</div>
-
+    </div>
+  </div>
 </section>
 
 
-<section className="bg-gray-50 py-16">
+<section className="py-24 bg-[#f8f8f7]">
+  <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
-<div className="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12">
+    <div>
+      <span className="uppercase tracking-[4px] text-[#550b14] font-semibold">
+        Free Consultation
+      </span>
 
+      <h2 className="mt-4 text-5xl font-serif text-gray-800">
+        Tell Us About
+        <br />
+        Your Project
+      </h2>
 
-<div>
+      <p className="mt-6 text-gray-600 leading-8">
+        Whether you're building a new home or renovating an existing
+        space, our designers are ready to create a space that reflects
+        your style and needs.
+      </p>
 
-<h2 className="text-4xl font-bold text-gray-800">
-Design Your Dream Space
-</h2>
+      <div className="mt-8 space-y-4">
+        <div>✔ Personalized Design Planning</div>
+        <div>✔ Premium Material Selection</div>
+        <div>✔ End-to-End Project Execution</div>
+        <div>✔ Transparent Pricing</div>
+      </div>
+    </div>
 
+    <div className="bg-white rounded-3xl p-8 shadow-xl">
+      <input
+        className="w-full border rounded-xl p-4 mb-4"
+        placeholder="Full Name"
+      />
 
-<p className="mt-5 text-gray-600 leading-7">
-Share your requirements with us. Whether it's a home,
-office or commercial space, we will create a personalised
-design solution for you.
-</p>
+      <input
+        className="w-full border rounded-xl p-4 mb-4"
+        placeholder="Phone Number"
+      />
 
+      <input
+        className="w-full border rounded-xl p-4 mb-4"
+        placeholder="Email Address"
+      />
 
-<ul className="mt-6 space-y-3 text-gray-700">
+      <textarea
+        className="w-full border rounded-xl p-4 h-36"
+        placeholder="Tell us about your project..."
+      />
 
-<li>
-✓ Custom interior planning
-</li>
+      <button className="w-full mt-6 bg-[#550b14] text-white py-4 rounded-xl hover:bg-[#6b101b] transition">
+        Send Enquiry
+      </button>
+    </div>
 
-<li>
-✓ Budget friendly solutions
-</li>
-
-<li>
-✓ Complete project management
-</li>
-
-<li>
-✓ Expert design consultation
-</li>
-
-</ul>
-
-
-</div>
-
-
-
-
-<div className="bg-white rounded-3xl shadow p-6 md:p-8">
-
-
-<h2 className="text-2xl font-bold text-gray-800">
-Get Free Consultation
-</h2>
-
-
-<input
-className="mt-6 w-full border p-3 rounded-lg"
-placeholder="Full Name"
-/>
-
-
-<input
-className="mt-4 w-full border p-3 rounded-lg"
-placeholder="Phone Number"
-/>
-
-
-<input
-className="mt-4 w-full border p-3 rounded-lg"
-placeholder="Email Address"
-/>
-
-
-<input
-className="mt-4 w-full border p-3 rounded-lg"
-placeholder="Project Type"
-/>
-
-
-<textarea
-className="mt-4 w-full border p-3 rounded-lg h-32"
-placeholder="Tell us about your project"
-/>
-
-
-<button className="mt-5 w-full bg-[#550b14] text-white py-3 rounded-lg">
-Send Enquiry
-</button>
-
-
-</div>
-
-
-</div>
-
+  </div>
 </section>
-
-
-
 
 <section className="py-16 bg-white">
 
@@ -269,7 +212,92 @@ From planning to final execution.
 
 </section>
 
+<section className="py-10 bg-[#f8f8f7]">
 
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="text-center">
+      <p className="uppercase tracking-[5px] text-[#550b14] font-semibold">
+        Need To Know
+      </p>
+
+      <h2 className="mt-4 text-5xl font-serif text-gray-800">
+        Frequently Asked Questions
+      </h2>
+    </div>
+
+
+    <div className="mt-12 space-y-5">
+
+
+      <details className="group bg-white rounded-2xl shadow p-6 cursor-pointer">
+        <summary className="list-none flex justify-between items-center text-xl font-semibold text-gray-800">
+          Can you design a home according to my lifestyle?
+          <span className="text-[#550b14] group-open:rotate-45 transition">
+            +
+          </span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Yes, we understand your needs, preferences and daily routine
+          to create a personalized interior design.
+        </p>
+      </details>
+
+
+
+      <details className="group bg-white rounded-2xl shadow p-6 cursor-pointer">
+        <summary className="list-none flex justify-between items-center text-xl font-semibold text-gray-800">
+          Can you make small spaces look luxurious?
+          <span className="text-[#550b14] group-open:rotate-45 transition">
+            +
+          </span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          We use smart layouts, lighting and furniture planning to make
+          compact spaces beautiful and functional.
+        </p>
+      </details>
+
+
+
+      <details className="group bg-white rounded-2xl shadow p-6 cursor-pointer">
+        <summary className="list-none flex justify-between items-center text-xl font-semibold text-gray-800">
+          Do you provide complete project execution?
+          <span className="text-[#550b14] group-open:rotate-45 transition">
+            +
+          </span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Yes, we manage everything from planning and material selection
+          to final installation.
+        </p>
+      </details>
+
+
+
+      <details className="group bg-white rounded-2xl shadow p-6 cursor-pointer">
+        <summary className="list-none flex justify-between items-center text-xl font-semibold text-gray-800">
+          Can you design within my budget?
+          <span className="text-[#550b14] group-open:rotate-45 transition">
+            +
+          </span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          We suggest suitable designs and materials according to your
+          budget while maintaining quality and style.
+        </p>
+      </details>
+
+
+    </div>
+
+  </div>
+
+</section>
 
 
 <section className="bg-[#550b14] py-16 text-center text-white">
