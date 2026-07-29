@@ -119,10 +119,10 @@ const Contact = () => {
       </p>
 
       <div className="mt-8 space-y-4">
-        <div>✔ Personalized Design Planning</div>
-        <div>✔ Premium Material Selection</div>
-        <div>✔ End-to-End Project Execution</div>
-        <div>✔ Transparent Pricing</div>
+        <div> ✓ Personalized Design Planning</div>
+        <div> ✓ Premium Material Selection</div>
+        <div> ✓ End-to-End Project Execution</div>
+        <div> ✓ Transparent Pricing</div>
       </div>
     </div>
 
