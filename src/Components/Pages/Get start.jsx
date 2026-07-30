@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Get start = () => {
+const Get  = () => {
   return (
     <div>Get start</div>
   )
 }
 
-export default Get start
+export default Get 

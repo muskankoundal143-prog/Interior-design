@@ -23,7 +23,7 @@ const Learn = () => {
   return (
     <main className="bg-[#f8f8f7]">
 
-      {/* Hero Section */}
+  
       <section className="relative h-[65vh]">
         <img
           src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600"
@@ -51,7 +51,7 @@ const Learn = () => {
         </div>
       </section>
 
-      {/* Learning Cards */}
+    
       <section className="max-w-7xl mx-auto py-20 px-6">
 
         <div className="text-center mb-14">
@@ -88,7 +88,7 @@ const Learn = () => {
         </div>
       </section>
 
-      {/* Design Process */}
+  
       <section className="bg-white py-20">
 
         <div className="max-w-6xl mx-auto px-6">
@@ -135,7 +135,7 @@ const Learn = () => {
 
       </section>
 
-      {/* FAQ */}
+
       <section className="py-20">
 
         <div className="max-w-4xl mx-auto px-6">
@@ -181,7 +181,7 @@ const Learn = () => {
 
       </section>
 
-      {/* CTA */}
+
       <section className="py-20 bg-[#550b14] text-center text-white">
 
         <h2 className="text-5xl font-serif">
