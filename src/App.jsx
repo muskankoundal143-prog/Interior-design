@@ -6,6 +6,9 @@ import { Navbar } from "./Components/Pages/Navbar";
 import Project from "./Components/Pages/Project";
 import Service from "./Components/Pages/Service";
 import Contact from "./Components/Pages/Contact";
+import Explore from "./Components/Pages/Explore design";
+import Learn from "./Components/Pages/Learn";
+import Discover from "./Components/Pages/Discover";
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
         <Route path="/projects" element={<Project />}/>
         <Route path="/services" element={<Service />}/>
         <Route path="/contact" element={<Contact />}/>
+        <Route path="/explore" element={< Explore/>} />
+        <Route path="/Learn" element={<Learn />} />
+        <Route path="/Discover" element={<Discover />} />
       </Routes>
     </>
   );

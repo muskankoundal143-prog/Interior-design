@@ -126,7 +126,28 @@ export default function Project() {
 
       </section>
 
+      <section className="py-16 bg-[#550b14] text-center text-white">
 
+
+<h2 className="text-4xl font-bold">
+Ready To Transform Your Space?
+</h2>
+
+
+<p className="mt-4 text-[#cbc0b2] text-lg">
+Let's create an interior that reflects your personality.
+</p>
+
+
+<button className="mt-7 bg-[#f8f8f7] text-[#550b14] px-8 py-3 rounded-full font-semibold">
+Book Consultation
+</button>
+
+
+</section>
     </main>
+
+    
   );
+  
 }

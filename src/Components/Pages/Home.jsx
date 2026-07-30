@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,11 +27,13 @@ const Home = () => {
       We create beautiful, functional, and modern interiors that
       reflect your lifestyle and personality.
     </p>
-
+<Link to="/Explore">
     <button className="mt-8 px-8 py-4 bg-[#550b14] hover:bg-[#6d0e1a] transition rounded-lg text-lg font-medium">
       Explore Designs
     </button>
+    </Link>
   </div>
+
 </section>
 
  <section className="bg-gray-50 py-16">
@@ -43,9 +46,7 @@ const Home = () => {
         className="w-full h-[450px] object-cover rounded-2xl shadow-lg"
       />
     </div>
-
-
-    <div>
+   <div>
 
       <p className="text-[#550b14] font-semibold uppercase tracking-wider">
         Who We Are
@@ -91,11 +92,11 @@ const Home = () => {
         </div>
 
       </div>
-
+<Link to="/Learn">
       <button className="mt-8 bg-[#550b14] text-white px-7 py-3 rounded-lg hover:bg-[#3d0810] transition">
         Learn More
       </button>
-
+</Link>
     </div>
 
   </div>
@@ -342,13 +343,13 @@ const Home = () => {
         Let's create a beautiful interior that reflects your personality and lifestyle.
       </p>
 
-
+<Link to="/contact">
       <button
         className="mt-7 bg-[#f8f8f7] text-[#550b14] px-8 py-3 rounded-full font-semibold hover:bg-[#cbc0b2] transition duration-300"
       >
         Contact Us
       </button>
-
+</Link>
     </div>
 
   </div>

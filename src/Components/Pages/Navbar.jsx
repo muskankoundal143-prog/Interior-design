@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-[#e7ded2] shadow-md">
+    <nav className="bg-[#e7ded2] shadow-md ">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center justify-between">
 

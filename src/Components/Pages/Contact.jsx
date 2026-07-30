@@ -161,7 +161,7 @@ const Contact = () => {
 
 
 <h2 className="text-center text-4xl font-bold text-gray-800">
-Why Work With Us
+Why Work <span className="text-[#550b14]">With </span> Us
 </h2>
 
 

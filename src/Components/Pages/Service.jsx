@@ -53,14 +53,14 @@ return(
 
     <div className="relative">
 
-      {/* Image */}
+
       <img
         src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600"
         alt="Interior Design"
         className="w-full h-[600px] object-cover rounded-3xl"
       />
 
-      {/* Content Card */}
+     
       <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 max-w-xl md:absolute md:right-10 md:bottom-10 mt-6 md:mt-0">
 
         <span className="uppercase tracking-[4px] text-[#550b14] font-semibold">
