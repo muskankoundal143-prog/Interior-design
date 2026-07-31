@@ -25,7 +25,7 @@ const Discover = () => {
   return (
     <main className="bg-[#f8f8f7]">
 
-      {/* Hero */}
+     
       <section className="relative h-[70vh]">
         <img
           src="https://images.unsplash.com/photo-1600585154526-990dced4db0?w=1600"
@@ -57,7 +57,7 @@ const Discover = () => {
         </div>
       </section>
 
-      {/* Featured Styles */}
+      
       <section className="max-w-7xl mx-auto py-20 px-6">
 
         <div className="text-center mb-14">
@@ -105,7 +105,7 @@ const Discover = () => {
 
       </section>
 
-      {/* Why Discover */}
+
       <section className="bg-white py-20">
 
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -142,7 +142,7 @@ const Discover = () => {
 
       </section>
 
-      {/* CTA */}
+
       <section className="py-20 bg-gradient-to-r from-[#550b14] via-[#6d1623] to-[#8b2434] text-white text-center">
 
         <h2 className="text-5xl font-serif">

@@ -10,6 +10,8 @@ import Explore from "./Components/Pages/Explore design";
 import Learn from "./Components/Pages/Learn";
 import Discover from "./Components/Pages/Discover";
 import Get from "./Components/Pages/Get start";
+import Admin from "./Components/Pages/Admin";
+import Enter from "./Components/Pages/Enter";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/Learn" element={<Learn />} />
         <Route path="/Discover" element={<Discover />} />
         <Route path="/get" element={<Get />} /> 
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/enter" element={<Enter />}/>
       </Routes>
     </>
   );

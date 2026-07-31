@@ -2,7 +2,7 @@ import React from 'react'
 
 const Get  = () => {
   return (
-    <div>Get start</div>
+    <div>Get start </div>
   )
 }
 
