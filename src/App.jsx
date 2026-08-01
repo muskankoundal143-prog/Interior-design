@@ -12,6 +12,10 @@ import Discover from "./Components/Pages/Discover";
 import Get from "./Components/Pages/Get start";
 import Admin from "./Components/Pages/Admin";
 import Enter from "./Components/Pages/Enter";
+import Add from "./Components/Pages/Add";
+import Profile from "./Components/Pages/Profile";
+import Delete from "./Components/Pages/Delete";
+import Update from "./Components/Pages/Update";
 
 const App = () => {
   return (
@@ -25,10 +29,14 @@ const App = () => {
         <Route path="/contact" element={<Contact />}/>
         <Route path="/explore" element={< Explore/>} />
         <Route path="/Learn" element={<Learn />} />
-        <Route path="/Discover" element={<Discover />} />
-        <Route path="/get" element={<Get />} /> 
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/Discover" element={<Discover />}/>
+        <Route path="/get" element={<Get />}/> 
+        <Route path="/admin" element={<Admin />}/>
         <Route path="/enter" element={<Enter />}/>
+        <Route path="/prfile" element={<Profile />}/>
+        <Route path="/add" element={<Add />}/>
+        <Route path="/delete" element={<Delete />}/>
+        <Route path="/update" element={<Update />}/>
       </Routes>
     </>
   );

@@ -46,9 +46,7 @@ export const Navbar = () => {
           <Link to="/contact" className="hover:text-[#550b14]">
             Contact
           </Link>
- <Link to="/admin" className="hover:text-[#550b14]">
-         Admin
-         </Link>
+
         </div>
 
 
@@ -117,11 +115,7 @@ export const Navbar = () => {
           >
             Contact
           </Link>
-<Link to="/admin" 
-   onClick={() => setOpen(false)}
-className="hover:text-[#550b14]">
-         Admin
-         </Link>
+
 
         </div>
       )}

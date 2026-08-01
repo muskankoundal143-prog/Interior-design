@@ -41,21 +41,27 @@ const Admin = () => {
             onChange={(e) => setPassword(e.target.value)}
             className="w-full border border-gray-300 rounded-lg p-3 mb-6 focus:outline-none focus:border-[#550b14]"
           />
-<div className="flex gap-4">
+<div className="flex flex-col sm:flex-row gap-4">
+
   <button
     type="submit"
-    className="w-50 bg-[#550b14] text-white py-3 rounded-lg font-semibold hover:bg-[#6d0f1b] transition"
+    className="w-full sm:w-1/2 bg-[#550b14] text-white py-3 rounded-lg font-semibold hover:bg-[#6d0f1b] transition"
   >
     Login
   </button>
-<Link to="/enter">
-  <button
-    type="button"
-    className="w-45 border border-[#550b14] text-[#550b14] py-3 rounded-lg font-semibold hover:bg-[#550b14] hover:text-white transition"
-  >
-    Enter
-  </button>
-</Link>
+
+
+  <Link to="/enter" className="w-full sm:w-1/2">
+
+    <button
+      type="button"
+      className="w-full border border-[#550b14] text-[#550b14] py-3 rounded-lg font-semibold hover:bg-[#550b14] hover:text-white transition"
+    >
+      Enter
+    </button>
+
+  </Link>
+
 </div>
         </form>
       </div>
