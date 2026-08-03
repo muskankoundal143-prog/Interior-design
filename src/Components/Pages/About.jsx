@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
@@ -105,6 +105,7 @@ const About = () => {
       <button className="mt-10 bg-[#550b14] hover:bg-[#6a0d19] transition text-white px-8 py-4 rounded-xl font-medium shadow-lg">
         Discover More
       </button>
+
     </div>
 
   </div>
