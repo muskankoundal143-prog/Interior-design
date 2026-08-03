@@ -43,10 +43,6 @@ export const Navbar = () => {
             Services
           </Link>
 
-          <Link to="/contact" className="hover:text-[#550b14]">
-            Contact
-          </Link>
-
         </div>
 
 
@@ -107,15 +103,13 @@ export const Navbar = () => {
             Services
           </Link>
 
-
-          <Link
-            to="/contact"
-            onClick={() => setOpen(false)}
-            className="block text-gray-700 hover:text-[#550b14]"
-          >
-            Contact
-          </Link>
-
+<Link
+  to="/contact"
+  onClick={() => setOpen(false)}
+  className="block bg-[#550b14] text-white text-center py-3 rounded-lg hover:bg-[#6b0f1c] transition"
+>
+  Contact Us
+</Link>
 
         </div>
       )}
