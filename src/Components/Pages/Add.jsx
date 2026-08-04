@@ -15,50 +15,43 @@ const Add = () => {
           <input
             type="text"
             placeholder="Project Name"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <input
             type="text"
             placeholder="Client Name"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <input
             type="text"
             placeholder="Designer Name"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <input
             type="number"
             placeholder="Project Budget"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <input
             type="text"
             placeholder="Location"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <textarea
             placeholder="Project Description"
             className="w-full border p-3 rounded-lg"
-            rows="4"
-          ></textarea>
+            rows="4"></textarea>
 
           <input
             type="file"
-            className="w-full border p-3 rounded-lg"
-          />
+            className="w-full border p-3 rounded-lg"/>
 
           <button className="bg-[#550b14] text-white px-6 py-3 rounded-lg">
             Add Project
           </button>
 
         </div>
-
+                   
       </div>
 
     </div>
